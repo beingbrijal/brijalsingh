@@ -12,7 +12,7 @@ pipeline {
     }
     stage ('23Q1') {
       steps {
-        
+         sh "cd /mnt/deepika"
        
         
       
