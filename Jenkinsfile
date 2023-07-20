@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage ('23q1-deploy') {
+    stage ('23Q1') {
       steps {
         sh "yum install docker -y"
         sh "systemctl start docker"
